@@ -1,0 +1,90 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  padding: 30px;
+  height: 100vh;
+}
+
+.custom-table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.custom-table th {
+  border: 1px solid #000;
+  padding: 8px;
+  font-family: serif;
+  font-weight: 600;
+}
+.custom-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  font-family: serif;
+  font-weight: 600;
+  color: #303030;
+}
+
+.toggle-buttons {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.custom-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: Roboto;
+}
+
+.show-table-button {
+  color: blue;
+  text-decoration: underline;
+}
+.legend {
+  margin: 20px;
+}
+
+.show-chart-button {
+  color: #404040;
+  text-decoration: none;
+}
+
+.head {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .custom-table {
+    border: 1px solid #000;
+  }
+
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+
+  .toggle-buttons {
+    display: block;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .toggle-button {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+  }
+}
