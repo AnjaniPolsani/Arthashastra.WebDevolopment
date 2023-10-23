@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Arthashastra.WebDevolopment/static/css/main.38deffda.css",
+    "main.js": "/Arthashastra.WebDevolopment/static/js/main.40acffa2.js",
+    "static/js/555.aa891d25.chunk.js": "/Arthashastra.WebDevolopment/static/js/555.aa891d25.chunk.js",
+    "index.html": "/Arthashastra.WebDevolopment/index.html",
+    "main.38deffda.css.map": "/Arthashastra.WebDevolopment/static/css/main.38deffda.css.map",
+    "main.40acffa2.js.map": "/Arthashastra.WebDevolopment/static/js/main.40acffa2.js.map",
+    "555.aa891d25.chunk.js.map": "/Arthashastra.WebDevolopment/static/js/555.aa891d25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38deffda.css",
+    "static/js/main.40acffa2.js"
+  ]
+}
